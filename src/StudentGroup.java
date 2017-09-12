@@ -1,6 +1,3 @@
-import src.*;
-import java.io.*;
-
 import java.util.Date;
 
 /**
@@ -149,22 +146,6 @@ public class StudentGroup implements StudentArrayOperation {
 
 	@Override
 	public void bubbleSort() {
-            int j=0;
-            Student temp;
-        for(Student i: students){
-            j++;}
-        for(int i=0;i<j-1;i++)
-        {
-            for(int k=0;k<j;k++)
-            {
-            if(students[i].compareTo(students[j])>0)
-            {
-                temp=students[i];
-                students[i]=students[j];
-                students[j]=temp;
-            }}
-            
-        }
             
 		// Add your implementation here
 	}
